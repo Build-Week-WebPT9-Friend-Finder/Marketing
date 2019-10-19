@@ -194,6 +194,7 @@ body {
   display: flex;
   justify-content: space-evenly;
   flex-flow: wrap;
+  text-align: center;
 }
 .landing-page-content .main-content section {
   width: 30%;
