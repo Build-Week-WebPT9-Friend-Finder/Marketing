@@ -1,9 +1,13 @@
 .about-pages {
-  background-color: #20B2AA;
+  background-color: #a6598c;
   width: 48%;
   margin: 1%;
   text-align: center;
   border-radius: 5px;
+}
+.home-h3 {
+  color: #a6598c;
+  padding: 10px;
 }
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
@@ -135,12 +139,6 @@ body {
   width: 50%;
   margin: auto;
 }
-.nav-bar a {
-  text-decoration: none;
-  color: black;
-  font-size: 1.5rem;
-  padding: 10px;
-}
 .nav-content {
   display: flex;
   flex-direction: row-reverse;
@@ -148,12 +146,15 @@ body {
   justify-content: space-between;
   align-items: center;
 }
-.nav-bar .logo {
+.nav-content .nav-link {
+  text-decoration: none;
+  color: black;
+  font-size: 1.5rem;
+  padding: 10px;
+}
+.nav-content .logo {
   width: 20%;
   height: 10%;
-}
-.nav-home {
-  padding-left: 10px;
 }
 .landing-page-content h2 {
   text-align: center;
@@ -161,13 +162,26 @@ body {
 .landing-page-content .main-content {
   display: flex;
   justify-content: space-evenly;
+  flex-flow: wrap;
 }
 .landing-page-content .main-content section {
   width: 30%;
 }
+.landing-page-content .main-content .extra-space {
+  padding-bottom: 50px;
+}
 .landing-page-content .main-content img {
   width: 100%;
+  height: 100%;
   border-radius: 5px;
+}
+.landing-page-content .home-mini-header {
+  text-align: center;
+  color: #a6598c;
+  padding: 10px;
+}
+.home-lower-content h2 {
+  text-align: center;
 }
 .about-header {
   font-size: 2rem;
@@ -184,7 +198,7 @@ body {
   flex-flow: wrap;
 }
 .about-para {
-  background-color: #20B2AA;
+  background-color: #a6598c;
   width: 48%;
   margin: 1%;
   text-align: center;
