@@ -136,6 +136,7 @@ table {
   border-spacing: 0;
 }
 body {
+  font-family: 'Open Sans', sans-serif;
   width: 50%;
   margin: auto;
 }
@@ -174,8 +175,8 @@ body {
   color: #a6598c;
 }
 .nav-content .logo {
-  width: 20%;
-  height: 10%;
+  width: 15%;
+  margin-top: 5px;
 }
 @media (max-width: 800px) {
   .nav-content .logo {
