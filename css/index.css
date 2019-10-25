@@ -176,9 +176,10 @@ body h3 {
   justify-content: space-between;
   align-items: center;
 }
-@media (max-width: 500px) {
+@media (max-width: 800px) {
   .nav-content {
     justify-content: center;
+    font-size: 2rem;
   }
 }
 .nav-content .nav-link {
@@ -189,7 +190,7 @@ body h3 {
 }
 @media (max-width: 800px) {
   .nav-content .nav-link {
-    font-size: 1rem;
+    font-size: 1.2rem;
   }
 }
 @media (max-width: 500px) {
@@ -347,6 +348,11 @@ body h3 {
     width: 70%;
   }
 }
+@media (max-width: 500px) {
+  .about-para {
+    width: 100%;
+  }
+}
 .about-para h2 {
   padding-top: 5px;
 }
@@ -369,4 +375,7 @@ body h3 {
   font-size: 3.5rem;
   color: #207853;
   padding: 5px;
+}
+.about-para .none {
+  visibility: hidden;
 }
